@@ -9,8 +9,10 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: devops/jenkins/manifests
-    repoURL: https://jihulab.com/devopsvip/myiac.git
+#    path: devops/jenkins/manifests
+#    repoURL: https://jihulab.com/devopsvip/myiac.git
+    path: myiac/devops/jenkins/manifests
+    repoURL: https://github.com/yzj-new/devopsvip.git
     targetRevision: main
     directory:
       recurse: false
